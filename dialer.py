@@ -15,7 +15,7 @@ def main():
     AUTH_TOKEN="from_twilio"
     client = Client(ACCOUNT_SID, AUTH_TOKEN)
 
-    while CNT<LIMIT
+    while CNT<LIMIT:
          call = client.calls.create(
             to = TO,
             from = FROM,
