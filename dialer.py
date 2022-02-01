@@ -18,7 +18,7 @@ def main():
     while CNT<LIMIT:
          call = client.calls.create(
             to = TO,
-            from = FROM,
+            from_ = FROM,
             url = "https://github.com/satisatanica/autodialier/blob/main/voice.xml"
          )
 
