@@ -5,11 +5,11 @@ import time
 def main():
 
     #Constants
-    FROM="+1234567890"
-    FROM="+1234567890"
+    FROM = "+1234567890"
+    TO = "+1234567890"
 
     CNT = 0
-    LIMIT =20
+    LIMIT = 20
 
     ACCOUNT_SID="from_twilio"
     AUTH_TOKEN="from_twilio"
